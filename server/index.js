@@ -31,7 +31,7 @@ io.on('connection', async (socket) => {
   // Initialize storage for this peer
   transports[socket.id] = { producer: null, consumer: null };
   consumers[socket.id] = [];
-
+  
   socket.on('disconnect', () => {
     console.log('Client disconnected:', socket.id);
     
