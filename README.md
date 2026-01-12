@@ -1,4 +1,5 @@
 
+---
 
 ```markdown
 # 📹 Mediasoup Multi-Host Video Platform (SFU)
@@ -92,7 +93,3 @@ To test with multiple devices (e.g., Laptop + Phone), you cannot use `localhost`
 ## 📜 License
 
 MIT License. Free for educational use.
-
-```
-
-```
